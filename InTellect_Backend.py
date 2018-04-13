@@ -23,11 +23,11 @@ from sklearn.naive_bayes import MultinomialNB
 # End of Importing the required Libraries 
 
 # Connecting to SAP HANA BFA Server
-connString = 'DRIVER={HDBODBC};SERVERNODE=vhmcdbfadb.mcd.rot.hec.sap.biz:30415;SERVERDB=BFA;UID=C5232886;PWD=Giri55@Bfa'
+connString = 'DRIVER={HDBODBC};SERVERNODE=vhmcdbfadb.mcd.rot.hec.sap.biz:30415;SERVERDB=BFA;UID=;PWD='
 conn = pyodbc.connect(connString, autocommit=True)
 print(conn)
 #try:
-#    conn = pyodbc.connect(connString, autocommit=True) #Open connection to SAP HANA C5233174, Ch@nd8985
+#    conn = pyodbc.connect(connString, autocommit=True) #Open connection to SAP HANA , 
 #    print('##### Connection Successful ! #####')
 #except pyodbc.Error as excep:
 #    sqlstate = excep.args[0]
