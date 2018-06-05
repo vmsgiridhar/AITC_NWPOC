@@ -109,7 +109,7 @@ print '\n'*3
 print X_train
 print '\n'*3'''
 print("n_samples: %d, n_features: %d" % X_train.shape)
-print X_train
+print(X_train)
 '''assert sp.issparse(X_train)
 
 y_train = ticket_train_target
