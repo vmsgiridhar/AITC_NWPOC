@@ -36,8 +36,8 @@ def AITC():'''
 conn = pyhdb.connect(
         host="vhmcdbfadb.mcd.rot.hec.sap.biz",
         port=30415,
-        user="C5232886",
-        password="Giri2017@Bfa",
+        user="",
+        password="",
         autocommit=True
 )
     #try:
